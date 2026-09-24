@@ -22,7 +22,7 @@ Change the single import in `components/ui/theme.css` to `./themes/calm.css`, `.
 
 ## Provider and platform checks
 
-`app/_layout.tsx` imports the local stylesheet and wraps navigation in GestureHandlerRootView with flex 1, then UIProvider. UIProvider owns HeroUINativeProvider. Metro uses Uniwind's withUniwindConfig; the Expo SDK 54 Babel preset supplies the installed Worklets transform.
+`app/_layout.tsx` imports the local stylesheet and wraps navigation in GestureHandlerRootView with flex 1, then UIProvider. UIProvider owns HeroUINativeProvider. Metro uses Uniwind's withUniwindConfig; the Expo SDK 57 Babel preset supplies the installed Worklets transform.
 
 The dashboard preview and published output use react-native-web. HeroUI Native is not recommended for web; inspect the real web preview as well as Expo Go before adding more kit integrations. If web rendering fails, replace only `components/ui/` with Uniwind-styled React Native primitives, preserve the exported Button/Card/Chip/Sheet props and UIProvider, and remove the HeroUI style import in that directory's global.css. A later dependency cleanup can remove unused packages.
 

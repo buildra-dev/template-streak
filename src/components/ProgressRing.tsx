@@ -45,6 +45,6 @@ export function ProgressRing({
 }
 
 const styles = StyleSheet.create({
-  center: { ...StyleSheet.absoluteFillObject, alignItems: "center", justifyContent: "center" },
+  center: { ...StyleSheet.absoluteFill, alignItems: "center", justifyContent: "center" },
   numeral: { fontSize: 30, lineHeight: 34 },
 });

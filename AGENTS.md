@@ -7,7 +7,7 @@ below still hold for everything else, and the UI kit in `components/ui/` is avai
 
 ## Stack
 
-- Expo SDK 54, React Native 0.81, React 19.1, TypeScript, and Expo Router 6 file routes.
+- Expo SDK 57, React Native 0.86, React 19.2, TypeScript, and Expo Router 57 file routes.
 
 ## Preview
 
@@ -18,7 +18,7 @@ The person sees the app natively in Expo Go on their own phone, loaded from this
 - Use only packages whose native code ships inside Expo Go: Expo SDK modules (`expo-*`), React Native core, and packages already in `package.json`.
 - Never add a package that needs custom native code or a config plugin that changes native projects, and never run `expo prebuild`.
 - Never create or edit `ios/` or `android/` directories; they must not exist.
-- Pin new packages to the versions Expo SDK 54 expects; `npx expo install <pkg>` chooses them.
+- Pin new packages to the versions Expo SDK 57 expects; `npx expo install <pkg>` chooses them.
 - Use `window`, `document`, and other DOM APIs only inside `Platform.OS === 'web'` branches.
 - Use React Native components with Uniwind `className` styling; CSS files configure theme tokens and utilities, never DOM layouts.
 

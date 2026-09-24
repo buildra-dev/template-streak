@@ -1,8 +1,8 @@
 {
   "formatVersion": 2,
   "id": "expo",
-  "version": "2.1.0",
-  "description": "Expo SDK 54 and Expo Router starter with HeroUI Native, Uniwind, and native Expo Go plus static web previews",
+  "version": "3.0.0",
+  "description": "Expo SDK 57 and Expo Router starter with HeroUI Native, Uniwind, and native Expo Go plus static web previews",
   "frameworkTags": [
     "expo",
     "react-native",

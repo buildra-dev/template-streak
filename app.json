@@ -5,7 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "streak",
-    "newArchEnabled": true,
     "userInterfaceStyle": "dark",
     "web": {
       "bundler": "metro",
@@ -16,7 +15,7 @@
       "expo-font"
     ],
     "experiments": {
-      "typedRoutes": false
+      "typedRoutes": true
     },
     "backgroundColor": "#0B1026",
     "ios": {
@@ -24,8 +23,7 @@
       "bundleIdentifier": "app.buildra.streak"
     },
     "android": {
-      "package": "app.buildra.streak",
-      "edgeToEdgeEnabled": true
+      "package": "app.buildra.streak"
     }
   }
 }
