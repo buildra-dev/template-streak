@@ -1,0 +1,61 @@
+{
+  "formatVersion": 2,
+  "id": "expo",
+  "version": "2.1.0",
+  "description": "Expo SDK 54 and Expo Router starter with HeroUI Native, Uniwind, and native Expo Go plus static web previews",
+  "frameworkTags": [
+    "expo",
+    "react-native",
+    "expo-router",
+    "typescript",
+    "cloudflare-workers",
+    "expo-go"
+  ],
+  "commands": {
+    "setup": {
+      "command": "bun",
+      "args": [
+        "install"
+      ]
+    },
+    "dev": {
+      "command": "bun",
+      "args": [
+        "run",
+        "dev"
+      ]
+    },
+    "build": {
+      "command": "bun",
+      "args": [
+        "run",
+        "build"
+      ]
+    },
+    "verify": {
+      "command": "bun",
+      "args": [
+        "run",
+        "verify"
+      ]
+    },
+    "test": {
+      "command": "bun",
+      "args": [
+        "run",
+        "test"
+      ]
+    }
+  },
+  "preview": {
+    "port": 8081
+  },
+  "hosting": "workers",
+  "database": "none",
+  "auth": "none",
+  "agentInstructions": "AGENTS.md",
+  "skills": [
+    ".agents/skills/add-screen",
+    ".agents/skills/use-ui-kit"
+  ]
+}

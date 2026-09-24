@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "allowJs": false,
+    "noEmit": true,
+    "strict": true
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "expo-env.d.ts",
+    ".expo/types/**/*.ts",
+    "components/**/*.ts",
+    "components/**/*.tsx",
+    "uniwind-env.d.ts",
+    "uniwind-types.d.ts"
+  ]
+}

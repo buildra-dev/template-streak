@@ -1,0 +1,21 @@
+@layer theme {
+  :root {
+    --radius: 16px;
+    @variant light {
+      --background: oklch(0.984 0.003 247.858);
+      --foreground: oklch(0.129 0.042 264.695);
+      --surface: oklch(1 0 0);
+      --surface-foreground: oklch(0.129 0.042 264.695);
+      --accent: oklch(0.48 0.22 285);
+      --accent-foreground: oklch(0.984 0.003 247.858);
+    }
+    @variant dark {
+      --background: oklch(0.129 0.042 264.695);
+      --foreground: oklch(0.984 0.003 247.858);
+      --surface: oklch(0.208 0.042 265.755);
+      --surface-foreground: oklch(0.984 0.003 247.858);
+      --accent: oklch(0.78 0.14 285);
+      --accent-foreground: oklch(0.208 0.042 265.755);
+    }
+  }
+}

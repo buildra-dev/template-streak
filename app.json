@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Streak",
+    "slug": "streak",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "streak",
+    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "backgroundColor": "#0B1026",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.buildra.streak"
+    },
+    "android": {
+      "package": "app.buildra.streak",
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
